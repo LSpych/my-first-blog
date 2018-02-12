@@ -8,7 +8,6 @@ from django.contrib.auth.decorators import login_required
 from .forms import PostForm, CommentForm
 from .models import Post, Comment
 
-#change
 
 #Ability to delete posts
 @login_required
